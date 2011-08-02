@@ -57,3 +57,16 @@
     git=http://github.com/symfony/AsseticBundle.git
     target=/bundles/Symfony/Bundle/AsseticBundle
     version=v1.0.0RC2
+
+[phpcr]
+    git=git://github.com/phpcr/phpcr.git
+
+[jackalope]
+    git=git://github.com/jackalope/jackalope.git
+
+[phpcd-odm]
+    git=git://github.com/doctrine/phpcd-odm.git
+
+[DoctrinePHPCRBundle]
+    git=git://github.com/symfony-cmf/DoctrinePHPCRBundle.git
+    target=/bundles/Symfony/Bundle/DoctrinePHPCRBundle
