@@ -1,6 +1,7 @@
 imports:
-    - { resource: parameters.ini }
     - { resource: security.yml }
+
+
 
 framework:
     #esi:             ~
@@ -41,11 +42,26 @@ doctrine:
         dbname:   %database_name%
         user:     %database_user%
         password: %database_password%
+        unix_socket: %database_socket%
         charset:  UTF8
 
     orm:
         auto_generate_proxy_classes: %kernel.debug%
         auto_mapping: true
+
+doctrine_phpcr:
+        # configure the PHPCR session
+    session:
+        backend:
+            url: http://localhost:8080/server/
+            type: jackrabbit
+        workspace: default
+        username: '' 
+        password: ''
+        # enable the ODM layer
+    odm:
+        auto_mapping: true
+
 
 # Swiftmailer Configuration
 swiftmailer:

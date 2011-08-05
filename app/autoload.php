@@ -14,6 +14,10 @@ $loader->registerNamespaces(array(
     'Monolog'          => __DIR__.'/../vendor/monolog/src',
     'Assetic'          => __DIR__.'/../vendor/assetic/src',
     'Metadata'         => __DIR__.'/../vendor/metadata/src',
+    'PHPCR'            => __DIR__.'/../vendor/phpcr/src',
+    'Jackalope'        => __DIR__.'/../vendor/jackalope/src',
+    'Doctrine\\ODM\\PHPCR' => __DIR__.'/../vendor/phpcr-odm/lib',
+    'JMS' => __DIR__.'/../vendor/bundles',
 ));
 $loader->registerPrefixes(array(
     'Twig_Extensions_' => __DIR__.'/../vendor/twig-extensions/lib',

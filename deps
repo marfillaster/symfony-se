@@ -64,9 +64,13 @@
 [jackalope]
     git=git://github.com/jackalope/jackalope.git
 
-[phpcd-odm]
-    git=git://github.com/doctrine/phpcd-odm.git
+[phpcr-odm]
+    git=git://github.com/doctrine/phpcr-odm.git
 
 [DoctrinePHPCRBundle]
     git=git://github.com/symfony-cmf/DoctrinePHPCRBundle.git
     target=/bundles/Symfony/Bundle/DoctrinePHPCRBundle
+
+[JMSDebuggingBundle]
+    git=https://github.com/schmittjoh/JMSDebuggingBundle.git
+    target=/bundles/JMS/DebuggingBundle

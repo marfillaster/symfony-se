@@ -8,3 +8,4 @@ vendor/
 .buildpath
 .project
 .settings
+app/config/parameters.ini
