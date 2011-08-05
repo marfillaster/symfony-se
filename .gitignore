@@ -2,7 +2,7 @@ web/bundles/
 app/cache/*
 app/logs/*
 build/
-vendor/
+#vendor/
 
 .buildpath
 .project
